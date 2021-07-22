@@ -66,6 +66,14 @@ var product = [
     hoahong: "20",
     size: "conhang",
   },
+  {
+    masp: "snk001",
+    soanh: 4,
+    tensp: "air force 9",
+    giasp: "300",
+    hoahong: "20",
+    size: "conhang",
+  },
 ];
 function hienthisp() {
   string = "";
