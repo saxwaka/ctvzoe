@@ -13,7 +13,8 @@ var sanpham = [
   "008-----nike 8-----36-39-----350-----20-----4-----product/1/0.jpg-----product/1/1.jpg-----product/1/2.jpg-----product/1/3.jpg",
   "009-----nike 9-----36-39-----300-----20-----4-----product/1/0.jpg-----product/1/1.jpg-----product/1/2.jpg-----product/1/3.jpg",
   "010-----Nike Loang-----36-43-----400-----50-----5-----https://b-f42-zpg.zdn.vn/4353747090640546662/5a715659321ac7449e0b.jpg-----https://f39-zpg.zdn.vn/7286405583677663722/a18ff61c925f67013e4e.jpg-----https://b-f40-zpg.zdn.vn/2852540532100328754/2df3fbf69fb56aeb33a4.jpg-----https://b-f38-zpg.zdn.vn/7633013225544021252/91b9d3f4b7b742e91ba6.jpg-----https://b-f38-zpg.zdn.vn/7504594204968155088/c975557e313dc4639d2c.jpg",
-
+  "011-----JD panda low-----36->43-----400-----20-----4-----https://f43-zpg.zdn.vn/1890786620495938994/e76826626610914ec801.jpg-----https://f43-zpg.zdn.vn/378664106599094711/2beb87d3c7a130ff69b0.jpg-----https://f38-zpg.zdn.vn/2792505691519474250/9ee135d575a782f9dbb6.jpg-----https://f34-zpg.zdn.vn/3451446942093659183/fec6b3f0f38204dc5d93.jpg",
+  
 ];
 
 var bienx = sanpham.length - (tranghientai - 1) * 6;
