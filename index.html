@@ -8,14 +8,17 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/a7890c830b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a7890c830b.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <link rel="stylesheet" href="pc.css"> -->
-    <title>CTV PT38</title>
+    <title>CTV Zoe</title>
   </head>
   <body>
     <div class="nav row">
@@ -31,19 +34,16 @@
     <div class="container" id="noidung">
       <div id="overlay">
         <span id="nutx">
-        <i class="fas fa-times-circle fa-3x" onclick="hienpt()" ></i>
+          <i class="fas fa-times-circle fa-3x" onclick="hienpt()"></i>
         </span>
         <div class="card-wrapper">
           <div class="card">
             <!-- card left -->
             <div class="product-imgs">
               <div class="img-display">
-                <div class="img-showcase" id="listanh">
-                  <img src="product/1/0.jpg" alt="shoe image" />
-                </div>
+                <div class="img-showcase" id="listanh"></div>
               </div>
-              <div class="img-select" id="itemanh">
-              </div>
+              <div class="img-select" id="itemanh"></div>
             </div>
             <!-- card right -->
             <div class="product-content">
@@ -55,10 +55,12 @@
                 </p>
               </div>
               <div class="product-detail">
-                
                 <ul>
                   <h2>Thông tin SP:</h2>
-                  <li class="last-price">Mã sản phẩm: <span id="masp"></span></li>
+                  <li class="last-price">
+                    Mã sản phẩm: <span id="masp"></span>
+                  </li>
+                  <li>Phân Khúc: <span id="phankhuc"></span></li>
                   <li>Size: <span id="size"></span></li>
                   <li>Khu vực ship: <span>Toàn quốc</span></li>
                   <li>Phí ship: <span>Freeship đối với mọi sản phẩm</span></li>
